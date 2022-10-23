@@ -1,73 +1,55 @@
-# Turborepo starter
+<br />
+<p align="center">
 
-This is an official Yarn v1 starter turborepo.
+  <h3 align="center">YouTube DevALMO</h3>
 
-## What's inside?
+  <p align="center">
+    DevALMO, YouTube channel projects
+  </p>
+</p>
 
-This turborepo uses [Yarn](https://classic.yarnpkg.com/) as a package manager. It includes the following packages/apps:
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about">About</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#running">Running</a></li>
+    <li><a href="#youtube">YouTube</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-### Apps and Packages
+## About
 
-- `docs`: a [Next.js](https://nextjs.org) app
-- `web`: another [Next.js](https://nextjs.org) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+This is a project created with the objective to contain the projects I do for YouTube, [DevALMO](https://www.youtube.com/channel/UCoxaVAl8-XHPv__s48HMPZA).
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+## Prerequisites
+To run in Windows 10 you need to install some tools, like: NodeJS, Chocolatey and more. [here](https://github.com/MestreALMO/React-Requires-To-Run-Windows-) is how to install all of it.
+<br/>
 
-### Utilities
 
-This turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
+## Running
+first time accesse run:
 ```
-cd my-turborepo
-yarn run build
+yarn
 ```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
+after that you can run the project with:
 ```
-cd my-turborepo
-yarn run dev
+yarn dev
 ```
 
-### Remote Caching
+<br />You can access it with ```http://localhost:3000/``` and ```http://localhost:3001/```
 
-Turborepo can use a technique known as [Remote Caching](https://turborepo.org/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+## YouTube
+https://youtu.be/lMnXLuEXSMI
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+## Contact
 
-```
-cd my-turborepo
-npx turbo login
-```
+My Name: André Lusegardis Miranda de Oliveira
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Pipelines](https://turborepo.org/docs/core-concepts/pipelines)
-- [Caching](https://turborepo.org/docs/core-concepts/caching)
-- [Remote Caching](https://turborepo.org/docs/core-concepts/remote-caching)
-- [Scoped Tasks](https://turborepo.org/docs/core-concepts/scopes)
-- [Configuration Options](https://turborepo.org/docs/reference/configuration)
-- [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
+- lusegardis@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/andr%C3%A9-lusegardis/detail/recent-activity/shares/)
+- [GitHub](https://github.com/MestreALMO)
+- [YouTube](https://www.youtube.com/channel/UCoxaVAl8-XHPv__s48HMPZA)
+- [LinkedIn](https://twitter.com/Lusegardis)
+- [CodePen](https://codepen.io/MestreALMO)
